@@ -1,0 +1,46 @@
+:root{
+    /*Neutral*/
+
+    --black: #263238;
+    --D_Grey: #4D4D4D;
+    --Grey: #717171;
+    --L_Grey: #89939E;
+    --Grey-blue: #ABBED1;
+    --Silver: #F5F7FA;
+    --Whithe: #FFFF;
+
+    /*Primary*/
+
+    --Primary: #28CB8B;
+
+    /*Secondary*/
+
+    --Secondary: #263238;
+
+    /*Info*/
+
+    --Info: #2194f3;
+
+    /*Colo Shade*/
+
+    --Shade1: #43A046;
+    --Shade2: #388E3B;
+    --Shade3: #237D31;
+    --Shade4: #1B5E1F;
+    --Shade5: #103E13;
+
+    /*Colo Tint*/
+
+    --Tint1: #66BB69;
+    --Tint2: #81C784;
+    --Tint3: #A5D6A7;
+    --Tint4: #C8E6C9;
+    --Tint5: #E8F5E9;
+
+    /*Action*/
+
+    --Warning: #FBC02D;
+    --Error: #E53835;
+    --Succes: #2E7D31;
+
+}
