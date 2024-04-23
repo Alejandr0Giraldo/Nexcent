@@ -1,0 +1,24 @@
+@import '../Colors/index.css';
+.button{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 56px;
+    width: 111px;
+    background-color: var(--Primary);
+    color: var(--Whithe);
+    border-radius: 6px;
+    font-family: var(--Headline4);
+    box-shadow: 2px 2px 2px #ABBED1;
+    border: none;
+}
+.button:hover {
+    box-shadow: none;
+}
+.button:focus{
+    border: 1px solid black;
+}
+.button:active{
+    background-color: var(--Shade2);
+    box-shadow: none;
+}
