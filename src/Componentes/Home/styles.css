@@ -1,0 +1,20 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.categories{
+    display: flex;
+}
+.categories>div{
+    padding-inline: 30px;
+}
+.users{
+    display: flex;
+}
+.users>div{
+    padding-inline: 20px;
+    color: var(--Primary);
+}
+.button{
+    scale: 50%;
+}

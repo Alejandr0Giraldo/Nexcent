@@ -3,16 +3,12 @@ import image from '../../Loading.png'
 import {useState} from 'react'
 
 function Button () {
-    const [loading, setLoading] = useState(false)
-    cosnt handleClick = () => {
-        setLoading(!loading)
-    };
+    
     return(
         <>
-            < onclick={handleClick} className='button'>
+            <div className='button'>
                 Label
-                {loading && <Loading />}
-            </>
+            </div>
         </>
         )
 };
