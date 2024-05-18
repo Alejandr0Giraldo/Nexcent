@@ -1,14 +1,18 @@
 import './styles.css'
 import Button from '../Button/button'
 import ilustration from '../../assets/Illustration.png'
+import logo from '../../assets/Logo.png'
+
+
 
 
 function Home (){
+
     return(
         <>
             <nav className='navbar'>
                 <div>
-                    <div>Nexent</div>
+                    <div><img src={logo} alt=""/></div>
                 </div>
                 <div className='categories'>
                     <div>Home</div>
@@ -25,9 +29,11 @@ function Home (){
             </nav>
             <section className='container-section'>
                 <div>
-                    <p>Lessons and insights </p>
-                    <p>from 8 years</p>
-                    <p>Where the grow</p>
+                    <div className='big-info'>
+                        <p>Lessons and insights </p>
+                        <p className='green-years'>from 8 years</p>
+                    </div>
+                    <p>Where to grow your business as a photographer: site or social media?</p>
                     <div><Button /></div>
                 </div>
                 <div>

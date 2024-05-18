@@ -1,7 +1,7 @@
 :root{
     /*Headlines Header*/
 
-    --Headline1: 'semi bold', 64/76;
+    --Headline1:  semibold,64px;
     --Headline2: 'semi bold', 36/44;
     --Headline3: 'semi bold', 28/36;
     --Headline4: 'semi bold', 20/28;
