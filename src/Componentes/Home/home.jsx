@@ -1,10 +1,9 @@
 import './styles.css'
 import Button from '../Button/button'
-import ilustration from '../../assets/Illustration.png'
 import logo from '../../assets/Logo.png'
-
-
-
+import Banner from '../Banner/index.jsx'
+import Clients from "../Clients/index.jsx";
+import Community from "../Community/index.jsx";
 
 function Home (){
 
@@ -24,22 +23,18 @@ function Home (){
                 </div>
                 <div className='users'>
                     <div>login</div>
-                    <div className='button-login'><Button /></div>
+                    <div className='button-login'><Button/></div>
                 </div>
             </nav>
-            <section className='container-section'>
-                <div>
-                    <div className='big-info'>
-                        <p>Lessons and insights </p>
-                        <p className='green-years'>from 8 years</p>
-                    </div>
-                    <p>Where to grow your business as a photographer: site or social media?</p>
-                    <div><Button /></div>
-                </div>
-                <div>
-                    <img src={ilustration} alt=""/>
-                </div>
-            </section>
+            <div>
+                <Banner/>
+            </div>
+            <div>
+                <Clients />
+            </div>
+            <div>
+                <Community/>
+            </div>
         </>
     )
 }

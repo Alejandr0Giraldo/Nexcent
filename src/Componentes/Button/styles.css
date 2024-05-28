@@ -1,4 +1,4 @@
-@import '../Colors/index.css';
+@import '../../assets/config.css';
 .button{
     display: flex;
     justify-content: space-around;
@@ -8,7 +8,7 @@
     background-color: var(--Primary);
     color: var(--Whithe);
     border-radius: 6px;
-    font-family: var(--Headline4);
+    cursor: pointer;
     box-shadow: 2px 2px 2px #ABBED1;
     border: none;
 }

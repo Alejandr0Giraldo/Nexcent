@@ -43,4 +43,25 @@
     --Error: #E53835;
     --Succes: #2E7D31;
 
+    /* Headlines Header */
+    --headline1--font--size: 64px;
+    --headline1--font--weight: semibold;
+    --headline2--font--size:  44px;
+    --headline2--font--weight: semibold;
+    --headline3--font--size:  36px;
+    --headline3--font--weight: semibold;
+    --headline4--font--size:  28px;
+    --headline4--font--weight: semibold;
+
+
+    /* Body */
+    --body1--font--size:  28px;
+    --body1--font--weight: regular;
+    --body2--font--size:  24px;
+    --body2--font--weight: regular;
+    --body3--font--size:  20px;
+    --body3--font--weight: regular;
+    --body4--font--size:  16px;
+    --body4--font--weight: regular;
+
 }

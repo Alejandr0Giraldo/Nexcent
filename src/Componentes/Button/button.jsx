@@ -4,9 +4,9 @@ function Button () {
     
     return(
         <>
-            <div className='button'>
+            <button className='button'>
                 Label
-            </div>
+            </button>
         </>
         )
 }

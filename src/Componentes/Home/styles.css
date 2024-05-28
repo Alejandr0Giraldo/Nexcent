@@ -1,6 +1,5 @@
-:root {
-    --Headline1: 64px;
-}
+@import "../../assets/config.css";
+
 .navbar{
     display: flex;
     align-items: center;
@@ -22,18 +21,4 @@
 }
 .button-login{
     width: 10px;
-}
-.container-section{
-    display: flex;
-    justify-content: space-around;
-    margin-top: 50px;
-}
-.big-info{
-    width: 657px;
-    height: 152px;
-    font-size:var(--Headline1); ;
-}
-.green-years{
-    color: var(--Primary);
-    margin-top: -60px;
 }

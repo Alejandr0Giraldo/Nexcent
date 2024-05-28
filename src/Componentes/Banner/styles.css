@@ -1,0 +1,14 @@
+.container-section{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.big-info{
+    width: 657px;
+    height: 152px;
+    font-size: var(--headline1--font--size);
+}
+.green-years{
+    color: var(--Primary);
+    margin-top: -60px;
+}

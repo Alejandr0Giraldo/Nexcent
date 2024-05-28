@@ -1,0 +1,12 @@
+
+.container-title{
+    display: flex;
+    justify-content: center;
+}
+.title{
+    display: flex;
+    font-size: var(--headline2--font--size);
+    width: 630px;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
