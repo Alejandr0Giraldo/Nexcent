@@ -10,3 +10,10 @@
     text-align: center;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
+.container-target{
+    width: 300px;
+    height: 260px;
+    display: grid;
+    justify-content: center;
+
+}

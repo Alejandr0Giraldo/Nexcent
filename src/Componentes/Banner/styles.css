@@ -7,6 +7,7 @@
     width: 657px;
     height: 152px;
     font-size: var(--headline1--font--size);
+    text-shadow:  2px 2px 4px rgba(0, 0, 0, 0.3);
 }
 .green-years{
     color: var(--Primary);
