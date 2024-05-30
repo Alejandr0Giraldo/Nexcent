@@ -13,7 +13,21 @@
 .container-target{
     width: 300px;
     height: 260px;
-    display: grid;
-    justify-content: center;
+    box-shadow: 1px 1px 1px 1px lightgray;
+    border-radius: 5px;
 
+}
+.icon-title{
+    width: 267px;
+
+}
+.description{
+    width: 251px;
+    margin-top: -30px;
+}
+.icon-title, .description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }

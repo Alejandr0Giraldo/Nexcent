@@ -7,11 +7,11 @@ function Community() {
                 <p className='title'>Manage your entire community in a single system</p>
             </div>
             <div className=' container-target'>
-                <div>
+                <div className='icon-title'>
                     <img src={icon_membership} alt=""/>
                     <h1>Membership Organisations</h1>
                 </div>
-                <div>
+                <div className='description'>
                     <p>Our membership management software provides full automation of membership renewals and payments</p>
                 </div>
             </div>
