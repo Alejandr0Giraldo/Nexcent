@@ -22,3 +22,7 @@
 .button-login{
     width: 10px;
 }
+.container-card-community{
+    display: flex;
+    justify-content: space-around;
+}

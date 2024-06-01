@@ -32,7 +32,12 @@ function Home (){
             <div>
                 <Clients />
             </div>
-            <div>
+            <div className='container-title'>
+                <p className='title'>Manage your entire community in a single system</p>
+            </div>
+            <div className='container-card-community'>
+                <Community/>
+                <Community/>
                 <Community/>
             </div>
         </>
